@@ -1,0 +1,82 @@
+{
+  "cadastros": [
+    {
+      "nome": "Jenifer",
+      "email": "jenifer@yahoo.com.br",
+      "endereco": {
+        "cep": "01304001",
+        "numero": "111",
+        "complemento": "de 700 a 1680 - lado par",
+        "rua": "Rua Augusta",
+        "bairro": "Consolação",
+        "cidade": "São Paulo",
+        "estado": "SP"
+      },
+      "id": 7
+    },
+    {
+      "nome": "Hotel intercity",
+      "email": "intercity@intercity.com",
+      "endereco": {
+        "cep": "57035-450",
+        "numero": "999",
+        "complemento": "",
+        "rua": "Rua Doutor Noel Nutels",
+        "bairro": "Ponta Verde",
+        "cidade": "Maceió",
+        "estado": "AL"
+      },
+      "id": 8
+    },
+    {
+      "nome": "Susane Maria",
+      "email": "susane.maria@gmail.com",
+      "confirmarEmail": "susane.maria@gmail.com",
+      "endereco": {
+        "cep": "12403180",
+        "numero": "90",
+        "complemento": "Casa",
+        "rua": "Rua Dona Catarina",
+        "bairro": "Jardim Dom Bosco",
+        "cidade": "Pindamonhangaba",
+        "estado": "SP"
+      },
+      "cargo": null,
+      "tecnologias": null,
+      "newsletter": "s",
+      "termos": true,
+      "frameworks": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "id": 9
+    },
+    {
+      "nome": "Leandro Pereira",
+      "email": "leandro@gmail.com",
+      "confirmarEmail": "leandro@gmail.com",
+      "endereco": {
+        "cep": "12421720",
+        "numero": "90",
+        "complemento": "casa",
+        "rua": "Rua Viscondessa Antônia Bicudo Salgado",
+        "bairro": "Condominio Residencial Real Ville",
+        "cidade": "Pindamonhangaba",
+        "estado": "SP"
+      },
+      "cargo": null,
+      "tecnologias": null,
+      "newsletter": "s",
+      "termos": null,
+      "frameworks": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "id": 10
+    }
+  ]
+}

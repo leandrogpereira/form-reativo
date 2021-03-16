@@ -1,0 +1,35 @@
+<h1>Olá, seja bem vindo!</h1>
+<table class="table table-hover mb-3">
+  <thead>
+    <tr>
+      <th scope="col">Nome</th>
+      <th scope="col">E-mail</th>
+      <th scope="col">CEP</th>
+      <th scope="col">Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngIf="!data">
+      <td class="text-muted" colspan="100%">
+        <img src="./../../assets/xandao.jpg" class="rounded mx-auto d-block" style="height: 500px; width: 1000px;" alt="Double biceps!">
+      </td>
+    </tr>
+    <tr *ngFor="let item of data">
+      <td>{{ item.nome }}</td>
+      <td>{{ item.email }}</td>
+      <td>{{ item.endereco.cep }}</td>
+      <td class="p-0">
+        <div class="btn-group mt-1">
+          <button class="btn btn-sm btn-outline-dark" (click)="alterarCadastro(item)">
+            <i class="bi bi-pencil"></i>
+          </button>
+          <button class="btn btn-sm btn-outline-dark" (click)="removerCadastro(item)">
+            <i class="bi bi-trash"></i>
+          </button>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>Deseja cadastrar uma nova pessoa ?</p>
+<button class="btn btn-outline-dark" routerLink="/form">Vamos lá!</button>
